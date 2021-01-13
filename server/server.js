@@ -2,7 +2,6 @@ require('dotenv').config();
 const express = require('express');
 const mongoose = require('mongoose');
 const auth = require('./middleware/auth');
-const Note = require('./models/note');
 const app = express();
 
 const API_PORT = process.env.PORT;
